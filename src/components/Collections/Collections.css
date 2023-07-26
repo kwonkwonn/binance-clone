@@ -1,0 +1,80 @@
+.collections {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.collectionLeft,
+.collectionRight {
+  width: 50%;
+}
+.collectionTop {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 0em;
+}
+.buttonsContainer {
+  display: flex;
+  gap: 1em;
+}
+.buttonslist {
+  display: flex;
+  border: 0px;
+  gap: 1em;
+  border: 1px solid grey;
+  border-radius: 10%;
+}
+
+.collectionsBottom {
+  display: flex;
+  gap: 3em;
+}
+.buttonBox {
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.topLeft {
+  font-size: 1.5em;
+  display: flex;
+  font-weight: bold;
+  justify-content: space-around;
+  width: 10em;
+}
+.buttonFeature {
+  border: 0;
+  background-color: white;
+  width: 4.5em;
+  height: 3em;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.buttonFeature:hover {
+  cursor: pointer;
+  background-color: darkgray;
+}
+.buttonFeature > img {
+  object-fit: contain;
+  width: 50%;
+  height: 50%;
+}
+
+.catalogue {
+  font-size: 1em;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 0em 1.5em 0em;
+  margin: 0em 0em 1em 0em;
+  border-bottom: 1px solid grey;
+}
+.catalogueSub {
+  display: flex;
+
+  gap: 1em;
+}
+.catalogueSub > div {
+  text-align: start;
+  width: 6em;
+}

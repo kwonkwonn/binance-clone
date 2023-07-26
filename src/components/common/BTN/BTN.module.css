@@ -1,0 +1,20 @@
+.BTN {
+  background-color: rgb(252, 213, 53);
+  padding: 0.5em 1em;
+  border: 0px;
+  border-radius: 15%;
+}
+
+.BTN:hover {
+  background-color: rgba(225, 165, 0, 0.4);
+  cursor: pointer;
+}
+
+.BTNUnAble {
+  background-color: rgba(208, 160, 28, 0.653);
+}
+.BTNUnAble:hover {
+  background-color: rgba(208, 160, 28, 0.653);
+
+  cursor: auto;
+}

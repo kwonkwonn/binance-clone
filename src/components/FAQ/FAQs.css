@@ -1,0 +1,21 @@
+.topCon {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.Container {
+  margin: 1em 0em 0em 0em;
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  padding: 0;
+}
+.leftContainer,
+.rightContainer {
+  font-size: 0.5em;
+  width: 50%;
+}
+.containerContainer {
+  display: flex;
+}

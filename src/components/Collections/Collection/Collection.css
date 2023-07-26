@@ -1,0 +1,35 @@
+.collection {
+  display: flex;
+  height: 4em;
+  justify-content: space-between;
+}
+
+.collection:hover {
+  background-color: darkgray;
+  transition: 1s ease-out;
+  border-radius: 0.5em;
+}
+
+.leftDiv {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  gap: 2em;
+  align-items: center;
+  cursor: pointer;
+}
+
+.leftDiv > img {
+  border-radius: 1em;
+  width: 3em;
+  height: 3em;
+}
+.rightDiv {
+  display: flex;
+  gap: 1em;
+}
+.rightDiv > div {
+  width: 6em;
+  text-align: start;
+}

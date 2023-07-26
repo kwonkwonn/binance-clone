@@ -1,0 +1,14 @@
+.divContainer {
+  display: flex;
+  width: 90%;
+  padding: 1em 0em;
+  border-bottom: 1px solid gray;
+  margin: -1em 1em 2em 0em;
+  cursor: pointer;
+  font-weight: bold;
+  flex-direction: column;
+}
+.divContainerContainer {
+  padding: 1em 0em 0em 0em;
+  font-weight: lighter;
+}

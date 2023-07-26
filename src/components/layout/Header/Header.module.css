@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+input {
+  width: 33em;
+  height: 2em;
+  margin: 1.5em 0em;
+  padding: 0;
+  border: solid 2px rgb(252, 213, 53);
+  border-radius: 5%;
+}
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: solid ghostwhite 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+.headerLeft {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  gap: 2em;
+}
+.menus {
+  gap: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.headerRight {
+  display: inline-flex;
+  gap: 2em;
+
+  padding: 1.5em 0em;
+  justify-content: space-between;
+}
+
+.leftLeft {
+  display: flex;
+  margin-left: 2em;
+  padding: 1.5em 0em;
+}
+.leftLeft > a {
+  text-decoration: none;
+  width: 6em;
+}
+.clickable {
+  padding: 1.5em 0em;
+}
+
+.clickable:hover {
+  color: goldenrod;
+  cursor: pointer;
+}

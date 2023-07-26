@@ -1,0 +1,62 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 12em;
+  border: 0px solid black;
+  overflow: hidden;
+  border-radius: 1em;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+  top: 0em;
+}
+.container:hover {
+  top: -0.5em;
+}
+.photos {
+  position: inherit;
+  object-fit: cover;
+  width: 100%;
+  height: 12em;
+}
+
+.bottomDesign {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  background-color: white;
+  top: 60%;
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  gap: 1em;
+  color: black;
+}
+.photosInContainer {
+  position: relative;
+
+  overflow: hidden;
+  border: 3px solid white;
+  border-radius: 30%;
+  top: -2em;
+  display: block;
+  width: 4em;
+  height: 4em;
+}
+.photosIn {
+  width: inherit;
+  height: inherit;
+}
+.bottomTop {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  left: 3em;
+  gap: 1em;
+}
+
+.bottomBottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,23 @@
+.wrapper {
+  position: relative;
+  cursor: pointer;
+}
+.wrapper > p {
+  padding: 1.5em 0em;
+
+  margin: 0;
+}
+.wrapper > p:hover {
+  color: goldenrod;
+}
+.inside {
+  position: absolute;
+  width: 15em;
+  top: em;
+}
+.inEl {
+  padding: 1em;
+}
+.inEl:hover {
+  background-color: darkgrey;
+}
